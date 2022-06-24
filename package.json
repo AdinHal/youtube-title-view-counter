@@ -1,0 +1,16 @@
+{
+  "name": "youtubeviewtitlecounter",
+  "version": "1.0.0",
+  "description": "Live Title Updater for YouTube video showing the number of views at that point",
+  "main": "token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AdinHa",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "googleapis": "^104.0.0",
+    "qs": "^6.10.5"
+  }
+}
