@@ -32,7 +32,7 @@ const REFRESH_TOKEN = ''; // Your refresh_token;
         'https://www.googleapis.com/youtube/v3/videos',
         {
             params: {
-                id: '_tsMcirrjfE',
+                id: '', // Your YouTube Video ID
                 part: 'snippet, statistics',
                 key: API_KEY
             }
@@ -50,7 +50,7 @@ const REFRESH_TOKEN = ''; // Your refresh_token;
     .put(
         'https://www.googleapis.com/youtube/v3/videos?part=snippet',
         {
-            id:'_tsMcirrjfE',
+            id:'', // Your video ID
             snippet:{
                 categoryId,
                 title: `juAnDeags | This video has ${viewCount} views`,
